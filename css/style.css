@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: blue;
+    background-color: rgb(240, 240, 240);
 }
 
 header{
@@ -23,6 +23,7 @@ h1{
     display: inline;
     vertical-align: middle;
     font-family: system-ui;
+    font-size: xxx-large;
 }
 h2{
     font-family: system-ui;
@@ -40,11 +41,10 @@ main{
     margin-top: 3%;
 }
 
-.bottone1{
-    background-color: lightblue;
-}
 
 .bottone{
+    background-color: lightblue;
+    border: 0;
     width: 84px;
     padding: 5px;
     border-radius: 5px;
@@ -74,16 +74,34 @@ p{
 }
 
 section{
-    margin: 2% 0%;
-   
+    margin: 2% 0%;  
 }
+
 
 .span-riga{
     background-color: cornflowerblue;
     padding: 5px;
-    border-radius: 10px;
-}
+    border-radius: 11px;
+    color: #fff;
+    font-family: system-ui;
+    font-size: smaller;
 
+}
+.colore1{
+    background-color: rgb(156, 90, 218);
+}
+.colore2{
+    background-color: rgb(179, 179, 137);
+}
+.colore3{
+    background-color: orange;
+}
+.colore4{
+    background-attachment: rgb(139, 57, 71);
+}
+.colore5{
+    background-color: yellowgreen;
+}
 .unico{
     padding-bottom: 2%;
 }
