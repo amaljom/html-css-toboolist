@@ -16,10 +16,12 @@ header{
 #logo-lista{
     width: 75px;
     margin: 0.5%;
+    vertical-align: middle;
 }
+
 h1{
     display: inline;
-    vertical-align: 35px;
+    vertical-align: middle;
     font-family: system-ui;
 }
 h2{
@@ -66,4 +68,22 @@ hr{
 }
 p{
     display: inline;
+    font-family: system-ui;
+    font-weight: 650;
+
+}
+
+section{
+    margin: 2% 0%;
+   
+}
+
+.span-riga{
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.unico{
+    padding-bottom: 2%;
 }
