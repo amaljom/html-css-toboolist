@@ -1,94 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>toboolist</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
-    <header>
-        <div class="logo">
-            <img id="logo-lista" src="./img/Logo.png" alt="non trovato :/">
-            <h1>Toboolist</h1>
-        </div>  
-    </header>
-    
-    
-    
-    
-    <main class="width">
-        <div>
-            <button class="bottone">Add Task</button>
-            <input class="input" type="text" placeholder="Add Section">
-            <hr>
-        </div>
-        <!-- /*inseriamo tutte le checkbox e il resto -->
-        <div class="corpo-centrale">
-            <div>
-                <h2>&#9660; New Task</h2>
-                <section>
-                <span>✓ </span>
-                <p>Quarterly Newsletter</p>
-                <span class="span-riga" >Editorials</span> 
-            </section>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>toboolist</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- mettiamo il logo e il titolo -->
+        <header>
+            <div class="logo">
+                <img id="logo-lista" src="./img/Logo.png" alt="non trovato :/">
+                <h1>Toboolist</h1>
             </div>  
-
+        </header>
+        <!-- nella prima parte del main posizioniamo il button e la barra di ricerca -->
+        <main class="width">
             <div>
-                <h2>&#9660; Today</h2>
-                <section>
+                <button class="bottone">Add Task</button>
+                <input class="input" type="text" placeholder="Add Section">
+                <hr>
+            </div>
+            <!-- /*inseriamo tutte le checkbox e il resto -->
+            <div class="corpo-centrale">
+                <!-- suddivivo in 3 div, visto che le sezione da creare sono 3 -->
+                <!-- primo div -->
+                <div>
+                    <h2>&#9660; New Task</h2>
+                    <section>
                     <span class="icone">✓ </span>
-                    <p>Recruiting blog post</p>
-                    <span class="span-riga" >Editorials</span>
+                    <p>Quarterly Newsletter</p>
+                    <span class="span-riga" >Editorials</span> 
                 </section>
-                <section>
-                    <span>✓ </span>
-                    <p>Mobile app launch</p>
-                    <span class="span-riga colore1" >Q1 goals</span>
-                </section>
-                <section>
-                    <span>✘</span>
-                    <p>Interview John H.</p>
-                    <span class="span-riga colore2" >Recuiting</span>
-                </section>
-                <section>
-                    <span>✓ </span>
-                    <p>Summint update to mobile storefronts</p>
-                    <span class="span-riga colore3" >Mobile</span>
-                </section>
+                </div>  
+                <!-- secondo div -->
+                <div>
+                    <h2>&#9660; Today</h2>
+                    <section>
+                        <span class="icone">✓ </span>
+                        <p>Recruiting blog post</p>
+                        <span class="span-riga" >Editorials</span>
+                    </section>
+                    <section>
+                        <span class="icone">✓ </span>
+                        <p>Mobile app launch</p>
+                        <span class="span-riga colore1" >Q1 goals</span>
+                    </section>
+                    <section>
+                        <span class="iconex">✘</span>
+                        <p>Interview John H.</p>
+                        <span class="span-riga colore2" >Recuiting</span>
+                    </section>
+                    <section>
+                        <span class="icone">✓ </span>
+                        <p>Summint update to mobile storefronts</p>
+                        <span class="span-riga colore3" >Mobile</span>
+                    </section>
+                </div>
+                <!-- terzo div -->
+                <div>
+                    <h2>&#9660; Upcoming</h2>
+                    <section>
+                        <span class="iconex">✘</span>
+                        <p>Schedule meeting with Alex</p>
+                    </section>
+                    <section>
+                        <span class="icone">✓ </span>
+                        <p>Homepage refresh</p>
+                        <span class="span-riga colore4">Website</span>
+                    </section>
+                    <section>
+                        <span class="icone">✓ </span>
+                        <p>Onboard new Sales team members</p>
+                        <span class="span-riga colore5" >Sales</span>
+                    </section>
+                    <section class="unico">
+                        <span class="icone">✓ </span>
+                        <p>Review editorial calender</p>
+                        <span class="span-riga" >Editorials</span>
+                    </section>
+                </div>
+        
             </div>
-
-            <div>
-                <h2>&#9660; Upcoming</h2>
-                <section>
-                    <span>✘</span>
-                    <p>Schedule meeting with Alex</p>
-                </section>
-                <section>
-                    <span>✓ </span>
-                    <p>Homepage refresh</p>
-                    <span class="span-riga colore4">Website</span>
-                </section>
-                <section>
-                    <span>✓ </span>
-                    <p>Onboard new Sales team members</p>
-                    <span class="span-riga colore5" >Sales</span>
-                </section>
-                <section class="unico">
-                    <span>✓ </span>
-                    <p>Review editorial calender</p>
-                    <span class="span-riga" >Editorials</span>
-                </section>
-            </div>
-        
-        
-        
-        </div>
-
-        
-    </main>
-    <footer></footer>
-</body>
+            <!-- fine corpo centrale -->
+            <!-- non c'è bisogno di una sezione footer per come 
+                è impostata la pagine da ricreare -->
+        </main>
+    </body>
 </html>
